@@ -1,68 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\sistemas\\2026-2\\db_avanzadas_big_data\\bdabd-black-cat\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\sistemas\\2026-2\\db_avanzadas_big_data\\bdabd-black-cat\\test\\test_02_roles_usuarios.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test\\test_02_roles_usuarios.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\sistemas\\2026-2\\db_avanzadas_big_data\\bdabd-black-cat\\scripts\\roles.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\roles.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\sistemas\\2026-2\\db_avanzadas_big_data\\bdabd-black-cat\\test\\test_01_categorias_servicios.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test\\test_01_categorias_servicios.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "roles.sql - ASUS-DEV.BDABD_BlackCatDB (ASUS-DEV\\aguil (86))",
-              "DocumentMoniker": "D:\\sistemas\\2026-2\\db_avanzadas_big_data\\bdabd-black-cat\\scripts\\roles.sql",
-              "RelativeDocumentMoniker": "scripts\\roles.sql",
-              "ToolTip": "D:\\sistemas\\2026-2\\db_avanzadas_big_data\\bdabd-black-cat\\scripts\\roles.sql - ASUS-DEV.BDABD_BlackCatDB (ASUS-DEV\\aguil (86))",
-              "RelativeToolTip": "scripts\\roles.sql - ASUS-DEV.BDABD_BlackCatDB (ASUS-DEV\\aguil (86))",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-11-10T13:40:27.588Z",
-              "EditorCaption": " - ASUS-DEV.BDABD_BlackCatDB (ASUS-DEV\\aguil (86))"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "test_02_roles_usuarios.sql - ASUS-DEV.BDABD_BlackCatDB (ASUS-DEV\\aguil (56))",
-              "DocumentMoniker": "D:\\sistemas\\2026-2\\db_avanzadas_big_data\\bdabd-black-cat\\test\\test_02_roles_usuarios.sql",
-              "RelativeDocumentMoniker": "test\\test_02_roles_usuarios.sql",
-              "ToolTip": "D:\\sistemas\\2026-2\\db_avanzadas_big_data\\bdabd-black-cat\\test\\test_02_roles_usuarios.sql - ASUS-DEV.BDABD_BlackCatDB (ASUS-DEV\\aguil (56))",
-              "RelativeToolTip": "test\\test_02_roles_usuarios.sql - ASUS-DEV.BDABD_BlackCatDB (ASUS-DEV\\aguil (56))",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-11-10T13:39:50.853Z",
-              "EditorCaption": " - ASUS-DEV.BDABD_BlackCatDB (ASUS-DEV\\aguil (56))"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "test_01_categorias_servicios.sql - ASUS-DEV.BDABD_BlackCatDB (ASUS-DEV\\aguil (55))",
-              "DocumentMoniker": "D:\\sistemas\\2026-2\\db_avanzadas_big_data\\bdabd-black-cat\\test\\test_01_categorias_servicios.sql",
-              "RelativeDocumentMoniker": "test\\test_01_categorias_servicios.sql",
-              "ToolTip": "D:\\sistemas\\2026-2\\db_avanzadas_big_data\\bdabd-black-cat\\test\\test_01_categorias_servicios.sql - ASUS-DEV.BDABD_BlackCatDB (ASUS-DEV\\aguil (55))",
-              "RelativeToolTip": "test\\test_01_categorias_servicios.sql - ASUS-DEV.BDABD_BlackCatDB (ASUS-DEV\\aguil (55))",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-11-10T13:31:01.64Z",
-              "EditorCaption": " - ASUS-DEV.BDABD_BlackCatDB (ASUS-DEV\\aguil (55))"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

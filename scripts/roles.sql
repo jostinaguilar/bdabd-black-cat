@@ -16,8 +16,8 @@ IF NOT EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'LoginAdmin')
 IF NOT EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'LoginDisenadorGrafico')
     CREATE LOGIN LoginDisenadorGrafico WITH PASSWORD = 'C0ntrasen@2026*', CHECK_POLICY = ON;
 
-IF NOT EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'LoginDisenadorAudio')
-    CREATE LOGIN LoginDisenadorAudio WITH PASSWORD = 'C0ntrasen@2026*', CHECK_POLICY = ON;
+IF NOT EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'LoginDisenadorAudiovisual')
+    CREATE LOGIN LoginDisenadorAudiovisual WITH PASSWORD = 'C0ntrasen@2026*', CHECK_POLICY = ON;
 
 IF NOT EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'LoginInstalador')
     CREATE LOGIN LoginInstalador WITH PASSWORD = 'C0ntrasen@2026*', CHECK_POLICY = ON;
@@ -96,9 +96,9 @@ IF NOT EXISTS (SELECT 1 FROM sys.database_principals WHERE name = 'UsuarioDisena
 ALTER ROLE DbDisenador ADD MEMBER UsuarioDisenadorGrafico;
 
 -- Diseñador Audiovisual (Usuario individual para trazabilidad)
-IF NOT EXISTS (SELECT 1 FROM sys.database_principals WHERE name = 'UsuarioDisenadorAudio')
-    CREATE USER UsuarioDisenadorAudio FOR LOGIN LoginDisenadorAudio;
-ALTER ROLE DbDisenador ADD MEMBER UsuarioDisenadorAudio;
+IF NOT EXISTS (SELECT 1 FROM sys.database_principals WHERE name = 'UsuarioDisenadorAudiovisual')
+    CREATE USER UsuarioDisenadorAudiovisual FOR LOGIN LoginDisenadorAudiovisual;
+ALTER ROLE DbDisenador ADD MEMBER UsuarioDisenadorAudiovisual;
 
 -- Instalador
 IF NOT EXISTS (SELECT 1 FROM sys.database_principals WHERE name = 'UsuarioInstalador')
